@@ -144,7 +144,7 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     "AUTHENTICATION_HEADER_TYPES": ['BEARER'],
     "ACCESS_TOKEN_LIFETIME": timedelta(seconds=10),
-    "REFRESH_TOKEN_LIFETIME": timedelta(minutes=1)  
+    "REFRESH_TOKEN_LIFETIME": timedelta(seconds=30)  
 }
 
 CORS_URLS_REGEX = r'^'
