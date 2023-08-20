@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito' ,'Courier New', Courier, monospace;
+}
+
+.navbar {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navbar > .logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    border-left: 1px solid lightgray;
+    height: 100%;
+    padding-left: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li:hover {
+    scale: 120%;
+}
+
+body > h3 {
+    text-align: center;
+    padding-top: 16px;
+}
