@@ -81,3 +81,10 @@ This project implements a secure authentication API using JSON Web Tokens (JWT) 
 
 ## CORS Configuration
 Cross-Origin Resource Sharing (CORS) is configured using django-cors-headers. You can customize allowed origins and headers in the project settings
+```
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8001",
+    "https://your-frontend-domain.com",
+]
+```
